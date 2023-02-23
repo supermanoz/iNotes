@@ -1,0 +1,13 @@
+.edit:hover,.delete:hover{
+    color:#414142 !important;
+    cursor: pointer;
+}
+
+.edit{
+    color:#085c54;
+
+}
+
+.delete{
+    color:#770801;
+}
