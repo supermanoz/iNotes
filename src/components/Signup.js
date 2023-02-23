@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 const Signup = (props) => {
-  let url = "http://localhost:5000/";
+  let url = "http://localhost:3000/";
   const navigate = useNavigate();
   const [details, setDetails] = useState({
     name: "",

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 const Login = (props) => {
   const navigate = useNavigate();
-  let url = "http://localhost:5000/";
+  let url = "http://localhost:3000/";
   const [credentials, setCredentials] = useState({ email: "", password: "" });
   const handleSubmit = async (e) => {
     e.preventDefault();
